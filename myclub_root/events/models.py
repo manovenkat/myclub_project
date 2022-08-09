@@ -1,4 +1,5 @@
 from django.db import models
+# this is a comment
 
 class Venue(models.Model):
     name = models.CharField('Venue Name', max_length=120)
