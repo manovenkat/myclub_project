@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-7v^1t_cj0m7uw380^9iy6fjjgq8rrpyp@i&hjibx&nl@ufk-=)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['port-8000-python-ugly-thailand-mvenkatachalam542170.preview.codeanywhere.com']
+
+CSRF_TRUSTED_ORIGINS = ['https://port-8000-python-ugly-thailand-mvenkatachalam542170.preview.codeanywhere.com']
 
 
 # Application definition
